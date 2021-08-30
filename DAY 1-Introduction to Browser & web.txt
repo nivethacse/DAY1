@@ -1,0 +1,12 @@
+Difference between HTTP1.1 vs HTTP2
+
+         * HTTP 1.1 takes 1 request and 1 response at a time
+
+          Browser use multiple connections to acheive concurrent request and response
+        Request and response are verbose
+
+
+         * HTTP 2 multiple request and response in parallel 
+
+         Addition of flow control and prioritization of function in 
+        units of stream.
